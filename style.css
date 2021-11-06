@@ -104,8 +104,31 @@ ul li a:hover{
  }
  .services .box-container .box{
     position: relative;
-     box-shadow: 0.5rem 1rem rgba(0,0,0,0 ,0.1) ;
+    
 
 
  }
+ .box{
+     width: 200px;
+     border: 15px solid white;
+     padding: 50px;
+     margin: 20px;
+     background-color: white;
+     justify-content: center;
+     float: rights;
+    
+ }
+ h2{
+     border-radius: 60%;
+    width: 36px;
+    height: 36px;
+    padding: 20px;
+    background: #f19201;
+    text-align: center;
+    border: 3px solid white;
+    color: white;
+    
+}
+    
+ 
  
