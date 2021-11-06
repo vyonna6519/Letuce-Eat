@@ -2,11 +2,15 @@ body{
     margin: 0;
     padding: 0;
     font-family: Arial;
+}
+.big{
     background: url(images/image2.png);
     background-size: cover;
     background-repeat: no-repeat;
-}
+    margin: 0;
+    padding: 0;
 
+}
 .top{
     position: relative;
     width: 100%;
@@ -43,6 +47,9 @@ ul li a{
     font-size: 14px;
     font-weight: bold;
 }
+.services{
+    margin-top: ;
+}
 
 
 ul li a:hover{
@@ -63,8 +70,16 @@ ul li a:hover{
     font-size: 42px;
     color: white;
     margin-right: 700px;
-    margin-top: 200px;
     border-top: 100px;
     display: inline-block;
+    margin-block: 400px;
+    
 }
+ button{
+     border: none;
+     font-size: 16px;
+     background-color:rgb(245, 153, 72);
+     padding: 30px;
+     display: inline-block;
+ }
  
