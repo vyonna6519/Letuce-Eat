@@ -50,3 +50,17 @@ ul li a:hover{
     border-radius: 6px;
    
 }
+h2{
+    font-size: 32px;
+    color: white;
+    float: left;
+}
+button{
+  background-color: sandybrown;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  margin: 4px 2px;
+  display: inline-block;
+  padding: 9px;
+}
