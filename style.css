@@ -89,8 +89,14 @@ ul li a:hover{
      background-color: rgb(238, 245, 252);
      height: 50vh;
      margin-bottom: -20px;
+    
  }
  .heading{
+     font-weight: 600;
      color: sandybrown;
-     font-size: 24px;
+     font-size: 24px
+
+ }
+ .heading p{
+     font-family: ;
  }
