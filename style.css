@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: Arial;
+    
 }
 .top{
     position: relative;
@@ -9,8 +10,9 @@ body{
     height: 100px;
     padding: 10px 90px;
     box-sizing: border-box;
-    background: rgba(112, 106, 106, 0.6);
+    background: rgba(37, 35, 35, 0.6);
     border-bottom: 1px solid #fff;
+    
 
 }
 .logo{
@@ -22,4 +24,23 @@ body{
     text-transform: uppercase;
     color:sandybrown;
     border-bottom: 5px
+}
+ul{
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+ul li a{
+    line-height: 80px;
+    color: #fff;
+    padding: 12px 30px;
+    font-size: 14px;
+    font-weight: bold;
+}
+ul li a:hover{
+    background: rgba(0,0,0,0.7);
+    border-radius: 6px;
+   
 }
