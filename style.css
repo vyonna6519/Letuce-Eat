@@ -13,3 +13,13 @@ body{
     border-bottom: 1px solid #fff;
 
 }
+.logo{
+    padding: 22px 20px;
+    height: 80px;
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color:sandybrown;
+    border-bottom: 5px
+}
