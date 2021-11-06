@@ -30,7 +30,7 @@ body{
     font-size: 20px;
     font-weight: bold;
     text-transform: uppercase;
-    color:sandybrown;
+    color: #f19201;
     border-bottom: 5px
 }
 
@@ -49,8 +49,7 @@ ul li a{
     font-size: 14px;
     font-weight: bold;
 }
-.services{
-    margin-top: ;
+
 }
 
 
@@ -80,13 +79,13 @@ ul li a:hover{
  button{
      border: none;
      font-size: 16px;
-     background-color:rgb(245, 153, 72);
+     background-color:rgba(128, 128, 128, 0.233);
      padding: 30px;
      display: inline-block;
  }
  .services{
      text-align: center;
-     background-color: rgb(238, 245, 252);
+     background-color: rgba(71, 70, 70, 0.103);
      height: 50vh;
      margin-bottom: -20px;
     
@@ -97,6 +96,16 @@ ul li a:hover{
      font-size: 24px
 
  }
- .heading p{
-     font-family: ;
+ .services .box-container{
+     display: flex;
+     flex-wrap: wrap;
+     gap: 1.5rem; 
+     flex-direction: row;
  }
+ .services .box-container .box{
+    position: relative;
+     box-shadow: 0.5rem 1rem rgba(0,0,0,0 ,0.1) ;
+
+
+ }
+ 
