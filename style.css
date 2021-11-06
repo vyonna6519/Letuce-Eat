@@ -7,8 +7,10 @@ body{
     background: url(images/image2.png);
     background-size: cover;
     background-repeat: no-repeat;
-    margin: 0;
+    margin: auto;
     padding: 0;
+    width: 100%;
+    height: 90vh;
 
 }
 .top{
@@ -66,13 +68,13 @@ ul li a:hover{
 }
  
 .info h2{
-    text-align: justify;
+    text-align: left;
     font-size: 42px;
     color: white;
     margin-right: 700px;
     border-top: 100px;
     display: inline-block;
-    margin-block: 400px;
+    margin-top: 250px;
     
 }
  button{
@@ -82,4 +84,13 @@ ul li a:hover{
      padding: 30px;
      display: inline-block;
  }
- 
+ .services{
+     text-align: center;
+     background-color: rgb(238, 245, 252);
+     height: 50vh;
+     margin-bottom: -20px;
+ }
+ .heading{
+     color: sandybrown;
+     font-size: 24px;
+ }
