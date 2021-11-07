@@ -111,12 +111,12 @@ ul li a:hover{
  .box{
      width: 200px;
      border: 20px solid white;
-     padding: 25px;
-     margin: 50px;
+     padding: 20px;
+     margin: 30px;
      background-color: white;
      justify-content: center;
      float: right;
-     height: 200px;
+     height: 250px;
      margin-left: 200px;
     
  }
