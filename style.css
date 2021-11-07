@@ -99,7 +99,7 @@ ul li a:hover{
  .services .box-container{
      display: flex;
      flex-wrap: wrap;
-     gap: 1.5rem; 
+     gap: 1.0rem; 
      flex-direction: row;
  }
  .services .box-container .box{
@@ -111,7 +111,7 @@ ul li a:hover{
  .box{
      width: 200px;
      border: 20px solid white;
-     padding: 20px;
+     padding: 10px;
      margin: 30px;
      background-color: white;
      justify-content: center;
@@ -160,12 +160,30 @@ margin: auto;
 
 .menu{
     text-align: center;
-     background-color: rgba(71, 70, 70, 0.103);
-     height: 50vh;
-     margin: auto;
-
+    background-color: rgba(71, 70, 70, 0.226);
+    display: flex;
+    flex-wrap: wrap;
+    
 }
-.menu1{
-   padding: 20px;
-   text-align: center;
+.menucard{
+    display: flex;
+  border: 50px;
+  flex-direction: row ;
+  padding: 10px;
+  border: 5px solid white;
+  margin: 30px;
+  width: 300px;
+  border: 100px solid white;
+  background-color: white;
+  justify-content: center;
+  float: right;
+  height: 150px;
+  margin-left: 200px;
+  text-align: center
+
+ 
+}
+ 
+;
+ 
 }
