@@ -186,10 +186,11 @@ margin: auto;
 
  footer{
      background-image: url(images/image8.png);
+     background-repeat: no-repeat;
      text-align: center;
     margin: auto;
     width: 100%;
-    height: 50vh;
+    height: 70vh;
  }
  .footer1{
 margin: 200px;
@@ -202,4 +203,14 @@ font-size:28px ;
 .footer1 h3{
     font-size: x-large;
     font-style: normal;
+}
+
+.footer2{
+    background-color: black;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+
 }
