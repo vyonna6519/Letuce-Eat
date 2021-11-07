@@ -110,16 +110,18 @@ ul li a:hover{
  }
  .box{
      width: 200px;
-     border: 15px solid white;
-     padding: 50px;
-     margin: 20px;
+     border: 20px solid white;
+     padding: 25px;
+     margin: 50px;
      background-color: white;
      justify-content: center;
-     float: rights;
+     float: right;
+     height: 200px;
+     margin-left: 200px;
     
  }
- h2{
-     border-radius: 60%;
+ h4{
+     border-radius: 50%;
     width: 36px;
     height: 36px;
     padding: 20px;
@@ -129,6 +131,29 @@ ul li a:hover{
     color: white;
     
 }
-    
- 
- 
+
+.reviews{
+        background-color: black;
+        width: 100%;
+        height: 70vh;
+        display: flex;
+        flex-direction:row ;
+}
+.image2{
+    width: 50%;
+    margin-right: 10px;
+}
+
+
+.rev{
+    color: white;  
+text-align: center;
+margin: auto;
+
+
+}
+.rev h1{
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 52;
+  text-decoration-line: underline;
+}
